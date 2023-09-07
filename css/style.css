@@ -47,11 +47,12 @@ h3{
     margin-top: 10px
 }
 article{
-    width: calc(100% / 3 - 40px );
+    width: calc(100% / 3 - 30px );
     background-color: var(--color-black);
-    margin: 20px;
+    margin: 25px 15px;
     background-clip: content-box;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    font-size: 0.9em;
 }
 img{
     width: 100px;
@@ -69,7 +70,4 @@ a{
 }
 a:visited{
     color: #54c8e7 ;
-}
-.info{
-    padding: 10px;
 }
