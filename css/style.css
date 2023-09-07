@@ -15,14 +15,12 @@
   clear: both;
   display: table;
 }
-.container{
-    float: left;
-}
+
 /* .debug{
     border: 2px solid black;
 } */
 body{
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Fredoka', sans-serif;
 }
 header{
@@ -40,15 +38,24 @@ h1{
     color: var(--color-purple);
     margin-bottom: 40px;
 }
+h3, .titolo, a{
+    margin: 5px 0;
+}
 h3{
     color: var(--color-white);
+    font-size: 1.2em;
+    margin-top: 10px
 }
 article{
-    width: calc(100% / 3 );
+    width: calc(100% / 3 - 40px );
     background-color: var(--color-black);
+    margin: 20px;
+    background-clip: content-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 img{
     width: 100px;
+    margin-right: 15px;
 }
 .push-left{
     float: left;
@@ -56,13 +63,13 @@ img{
 .titolo{
     color: var(--color-white);
 }
-article > a{
+a{
     color: var(--color-white);
     text-decoration: none;
 }
-article > a:hover{
-    color: purple;
-}
-article > a:visited{
+a:visited{
     color: #54c8e7 ;
+}
+.info{
+    padding: 10px;
 }
