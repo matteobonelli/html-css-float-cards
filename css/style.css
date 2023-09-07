@@ -7,11 +7,26 @@
 
 :root{
     --color-purple: #e5306f;
+    --color-black: #0f0e17;
+    --color-white: #fffffa;
 }
-
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container{
+    float: left;
+}
+/* .debug{
+    border: 2px solid black;
+} */
 body{
     font-size: 20px;
     font-family: 'Fredoka', sans-serif;
+}
+header{
+    margin-bottom: 40px;
 }
 .wrapper{
     max-width: 1200px;
@@ -24,4 +39,30 @@ h1, p{
 h1{
     color: var(--color-purple);
     margin-bottom: 40px;
+}
+h3{
+    color: var(--color-white);
+}
+article{
+    width: calc(100% / 3 );
+    background-color: var(--color-black);
+}
+img{
+    width: 100px;
+}
+.push-left{
+    float: left;
+}
+.titolo{
+    color: var(--color-white);
+}
+article > a{
+    color: var(--color-white);
+    text-decoration: none;
+}
+article > a:hover{
+    color: purple;
+}
+article > a:visited{
+    color: #54c8e7 ;
 }
