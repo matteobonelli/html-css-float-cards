@@ -65,9 +65,7 @@ img{
     color: var(--color-white);
 }
 a{
-    color: var(--color-white);
+    color: #3bccdd;
     text-decoration: none;
 }
-a:visited{
-    color: #54c8e7 ;
-}
+
